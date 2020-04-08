@@ -1,4 +1,4 @@
-package by.chemerisuk.cordova.firebase;
+package com.gems.alumnidev;
 
 import android.content.Context;
 import android.os.Bundle;
