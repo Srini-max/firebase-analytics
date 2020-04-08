@@ -45,7 +45,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FirebaseAnalytics">
-                <param name="android-package" value="by.chemerisuk.cordova.firebase.FirebaseAnalyticsPlugin" />
+                <param name="android-package" value="com.gems.alumnidev" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
@@ -59,7 +59,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <framework src="com.google.firebase:firebase-analytics:$FIREBASE_ANALYTICS_VERSION" />
 
         <source-file src="src/android/FirebaseAnalyticsPlugin.java"
-            target-dir="src/by/chemerisuk/cordova/firebase/" />
+            target-dir="src/com/gems/alumnidev/" />
     </platform>
 
 </plugin>
